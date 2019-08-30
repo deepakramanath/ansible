@@ -63,7 +63,7 @@ EXAMPLES = '''
 # Changing Managing hosts list
 - ipa_service:
     name: http/host01.example.com
-    host:
+    hosts:
        - host01.example.com
        - host02.example.com
     ipa_host: ipa.example.com
